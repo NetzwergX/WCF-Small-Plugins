@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.user.passwordChange">
+		<item name="wcf.user.passwordChange.force"><![CDATA[Force password change]]></item>
+		<item name="wcf.user.passwordChange.forced"><![CDATA[Your password has not been changed for {PASSWORD_RENEW_TIME} days. Change your password now.]]></item>
+		<item name="wcf.user.passwordChange.similar"><![CDATA[You have to choose a new password which is different from your old password.]]></item>
+	</category>
+	<category name="wcf.acp.option">		
+		<item name="wcf.acp.option.password_renew_time"><![CDATA[Password timeout]]></item>
+		<item name="wcf.acp.option.password_renew_time.description"><![CDATA[Enter how long a password should remain valid for, before it is required to be changed, here [days].]]></item>
+	</category>
+</language>

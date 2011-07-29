@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package name="net.tr3kk3r.wcf.user.security.password.renew" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Forced password change]]></packagename>
+		<packagename language="de"><![CDATA[Regelmäßige Passwortänderung]]></packagename>
+		<packagedescription><![CDATA[Forces the user to change his password on a regularly base (timeframe can be specified via ACP)]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Zwingt den Benutzer nach einer (im ACP einstellbaren) Anzahl von Tagen ihr Passwort zu ändern.]]></packagedescription>
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2011-04-21</date>
+		<plugin>com.woltlab.wcf.form.user</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[Sebastian Teumert - tr3kk3r.net]]></author>
+		<authorurl><![CDATA[http://www.tr3kk3r.net/]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.5">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.1.4">com.woltlab.wcf.form.user</requiredpackage>		
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- Configuration files (XML) -->
+		<eventlistener>xml/eventlistener.xml</eventlistener>
+		<options>xml/options.xml</options>
+		<!-- Setup Files -->
+		<sql>sql/install.sql</sql>		
+		<!-- Programm files (TAR) -->
+		<files>tar/files.tar</files>
+		<acptemplates>tar/acptemplates.tar</acptemplates>
+		<!-- Language Files (XML) -->
+		<languages languagecode="de">languages/de.xml</languages>
+		<languages languagecode="en">languages/en.xml</languages>
+	</instructions>
+</package>

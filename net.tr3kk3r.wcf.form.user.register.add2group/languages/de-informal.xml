@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de-informal" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.register_additional_groups"><![CDATA[Zusätzliche Benutzergruppen]]></item>
+		<item name="wcf.acp.option.register_additional_groups.description"><![CDATA[Gib an, in welchen Gruppen (zusätzlich zu "Gäste", "Jeder" und "Registrierte Benutzer") ein Benutzer bei der Registrierung Mitglied werden soll]]></item>
+	</category>
+</language>

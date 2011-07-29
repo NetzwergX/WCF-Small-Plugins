@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<options>
+			<option name="register_additional_groups">
+				<categoryname>user.register</categoryname>
+				<optiontype>groups</optiontype>				
+			</option>
+		</options>
+	</import>
+</data>

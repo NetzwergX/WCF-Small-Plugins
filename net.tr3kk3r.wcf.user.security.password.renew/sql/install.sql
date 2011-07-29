@@ -1,0 +1,1 @@
+@ALTER TABLE wcf1_user ADD lastPasswordChange INT UNSIGNED NOT NULL 

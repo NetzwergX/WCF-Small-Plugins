@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/eventlistener.xsd">
+	<import>
+		<eventlistener>
+			<eventclassname>UserAddForm</eventclassname>
+			<eventname>save</eventname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+			<listenerclassFile>lib/system/event/listener/UserAddFormPasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>UserAddForm</eventclassname>
+			<eventname>show</eventname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+			<listenerclassFile>lib/system/event/listener/UserAddFormPasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+
+		<eventlistener>
+			<eventclassname>AccountManagementForm</eventclassname>
+			<eventname>saved</eventname>
+			<listenerclassFile>lib/system/event/listener/AccountManagementFormPasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>AccountManagementForm</eventclassname>
+			<eventname>show</eventname>
+			<listenerclassFile>lib/system/event/listener/AccountManagementFormPasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+		<eventlistener>
+			<eventclassname>AccountManagementForm</eventclassname>
+			<eventname>validate</eventname>
+			<listenerclassFile>lib/system/event/listener/AccountManagementFormPasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+
+		<eventlistener>
+			<eventclassname>StructuredTemplate</eventclassname>
+			<eventname>shouldDisplay</eventname>
+			<listenerclassFile>lib/system/event/listener/StructuredTemplatePasswordRenewListener.class.php</listenerclassFile>
+		</eventlistener>
+	</import>
+</data>

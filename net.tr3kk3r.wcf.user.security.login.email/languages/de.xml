@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="de" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.allow_login_email"><![CDATA[Anmeldung mit E-Mail-Adresse aktivieren]]></item>
+		<item name="wcf.acp.option.allow_login_email.description"><![CDATA[Ermöglicht es den Benutzern, sich mit ihrer E-Mail-Adresse, anstatt des Benutzernames, anzumelden.]]></item>
+		<item name="wcf.acp.option.force_login_email"><![CDATA[Anmeldung mit E-Mail-Adresse erzwingen]]></item>
+		<item name="wcf.acp.option.force_login_email.description"><![CDATA[Erzwingt die Anmeldung mit der E-Mail-Adresse.]]></item>
+	</category>
+</language>

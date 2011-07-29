@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<package name="net.tr3kk3r.wcf.user.profile.memberslist.remove" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[Memberslist: Remove inactive users]]></packagename>
+		<packagename language="de"><![CDATA[Mitgliederliste: Inaktive Benutzer entfernen]]></packagename>
+		<packagedescription><![CDATA[Removes inactive oder banned users from the members list.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Entfernt inaktive oder gesperrte Benutzer aus der Mitgliederliste.]]></packagedescription>
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2011-07-16</date>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[Sebastian Teumert - tr3kk3r.net]]></author>
+		<authorurl><![CDATA[http://www.tr3kk3r.net/]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.3">com.woltlab.wcf.page.user.profile</requiredpackage>
+		<requiredpackage minversion="1.1.3">com.woltlab.wcf</requiredpackage>		
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- Configuration files (XML) -->
+		<eventlistener>eventlistener.xml</eventlistener>		
+		<!-- Programm files (TAR) -->
+		<files>files.tar</files>		
+	</instructions>
+</package>
