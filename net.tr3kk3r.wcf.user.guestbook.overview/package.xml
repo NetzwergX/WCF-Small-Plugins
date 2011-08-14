@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="net.tr3kk3r.wcf.user.guestbook.overview" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/ http://www.woltlab.com/XSD/package.xsd">
+	<packageinformation>
+		<packagename><![CDATA[User Guestbook Overview]]></packagename>
+		<packagename language="de"><![CDATA[Gästebuch Übersichtsseite]]></packagename>
+		<packagedescription><![CDATA[An overview page over all user guestbooks.]]></packagedescription>		
+		<packagedescription language="de"><![CDATA[Eine Übersichtsseite über die persönlichen Gästebücher.]]></packagedescription>		
+		<isunique>1</isunique>
+		<version>1.0.0</version>
+		<date>2011-08-14</date>
+		<plugin>com.woltlab.wcf.page.user.profile</plugin>
+	</packageinformation>
+
+	<authorinformation>
+		<author><![CDATA[Sebastian Teumert - tr3kk3r.net]]></author>
+		<authorurl><![CDATA[http://www.tr3kk3r.net/]]></authorurl>
+	</authorinformation>
+
+	<requiredpackages>
+		<requiredpackage minversion="1.1.7">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="1.1.0">com.woltlab.wcf.page.user.profile</requiredpackage>
+	</requiredpackages>
+
+	<instructions type="install">
+		<!-- XML -->
+		<pagemenu>pagemenu.xml</pagemenu>
+		<options>options.xml</options>
+		<!-- Files -->
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		<!-- Language -->
+		<languages languagecode="de">languages/de.xml</languages>
+		<languages languagecode="de-informal">languages/de-informal.xml</languages>
+		<languages languagecode="en">languages/en.xml</languages>
+	</instructions>		
+</package>
