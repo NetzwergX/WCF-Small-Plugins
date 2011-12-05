@@ -16,9 +16,20 @@ class UserAddFormValidationListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		if(!preg_match(REGISTER_USERNAME_VALIDATION_PATTERN, $eventObj->username)) {
-			$eventObj->errorType['username'] = 'notValid';
+		try {
+			$this->validate($eventObj->username);
 		}
+		catch(UserInputException $e) {
+			if($className !== 'AccountManagementForm') {
+				$eventObj->errorType[$e->getField()] = $e->getType();
+			}
+			else throw $e;
+		}		
+	}	
+	
+	private function validate($usernamej) {
+		if(!preg_match(REGISTER_USERNAME_VALIDATION_PATTERN, $username))
+			throw new UserInputException('username', 'notValid');
 	}
 }
 ?>
