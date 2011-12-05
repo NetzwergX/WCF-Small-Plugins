@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/eventlistener.xsd">
+	<import>
+		<eventlistener>
+			<eventclassname>UserAddForm</eventclassname>
+			<eventname>validate</eventname>
+			<environment>admin</environment>
+			<inherit>1</inherit>
+			<listenerclassFile>lib/system/event/listener/UserAddFormValidationListener.class.php</listenerclassFile>
+		</eventlistener>
+
+		<eventlistener>
+			<eventclassname>UserAddForm</eventclassname>
+			<eventname>validate</eventname>
+			<inherit>1</inherit>
+			<listenerclassFile>lib/system/event/listener/UserAddFormValidationListener.class.php</listenerclassFile>
+		</eventlistener>
+	</import>
+</data>
