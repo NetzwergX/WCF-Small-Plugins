@@ -2,7 +2,7 @@
 require_once(WCF_DIR.'lib/system/event/EventListener.class.php');
 
 /**
- * 
+ * Validates the username by given regular expression.
  *
  * @author 	Sebastian Teumert
  * @copyright 	(c) 2011 teumert.net

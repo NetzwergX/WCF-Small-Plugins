@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <package name="net.teumert.wcf.form.user.nameValidation" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/package.xsd">
 	<packageinformation>
-		<packagename><![CDATA[Benutzernamen-Validierung]]></packagename>
-		<packagedescription><![CDATA[Ermöglicht es, Benutzernamen mit einem regulären Ausdruck zu validieren.]]></packagedescription>
+		<packagename><![CDATA[Username Validation]]></packagename>
+		<packagename language="de"><![CDATA[Benutzernamen-Validierung]]></packagename>
+		<packagedescription><![CDATA[Allows the username to be validated with an custom regular expression.]]></packagedescription>
+		<packagedescription language="de"><![CDATA[Ermöglicht es, Benutzernamen mit einem regulären Ausdruck zu validieren.]]></packagedescription>
 		<isunique>1</isunique>
 		<version>1.0.0</version>
 		<date>2011-12-05</date>
@@ -11,7 +13,7 @@
 
 	<authorinformation>
 		<author><![CDATA[Sebastian Teumert]]></author>
-		<authorurl><![CDATA[http://www.teumert.net/]]></authorurl>
+		<authorurl><![CDATA[http://www.tr3kk3r.net/]]></authorurl>
 	</authorinformation>
 
 	<requiredpackages>
