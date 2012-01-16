@@ -6,13 +6,13 @@
 		<packagedescription><![CDATA[Assigns users upon registration to further groups (configurable in ACP).]]></packagedescription>		
 		<packagedescription language="de"><![CDATA[Fügt Benutzer bei der Registrierung frei wählbaren Benutzergruppen hinzu.]]></packagedescription>
 		<isunique>1</isunique>
-		<version>1.0.1</version>
-		<date>2011-04-21</date>
+		<version>1.0.1 pl 1</version>
+		<date>2012-01-16</date>
 		<plugin>com.woltlab.wcf.form.user</plugin>
 	</packageinformation>
 
 	<authorinformation>
-		<author><![CDATA[Sebastian Teumert - tr3kk3r.net]]></author>
+		<author><![CDATA[Sebastian Teumert]]></author>
 		<authorurl><![CDATA[http://www.tr3kk3r.net/]]></authorurl>
 	</authorinformation>
 
@@ -29,5 +29,9 @@
 		<languages languagecode="de">languages/de.xml</languages>
 		<languages languagecode="de-informal">languages/de-informal.xml</languages>
 		<languages languagecode="en">languages/en.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="1.0.1">
+		<files>tar/files.tar</files>
 	</instructions>
 </package>
