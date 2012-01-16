@@ -16,7 +16,10 @@ class RegisterFormAdditionalGroupsListener implements EventListener {
 	 * @see EventListener::execute()
 	 */
 	public function execute($eventObj, $className, $eventName) {
-		$eventObj->user->addToGroups(explode(",", REGISTER_ADDITIONAL_GROUPS), false, false);	
+		//check non-emptyness
+		$additionalGroupIDs = explode(",", REGISTER_ADDITIONAL_GROUPS);
+		if(count($additionalGroupIDs) > 0)
+			$eventObj->user->addToGroups($additionalGroupIDs, false, false);		
 	}
 }
 ?>
