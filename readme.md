@@ -1,7 +1,14 @@
-WCF Plugins / Packages by Tr3kk3r
-=================================
+Legacy WCF Plugins / Packages by NetzwergX
+==========================================
+
 This is a collection of all of my small, open source wcf packages.
 Bigger packages (addons) will still get their own repository.
+
+
+NOTE:
+----_
+This repository is kept for historical reasons, it is not longer maintained as i no longer write for WCF 1.x.
+
 
 License
 -------
