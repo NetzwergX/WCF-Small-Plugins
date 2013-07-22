@@ -6,8 +6,8 @@ Bigger packages (addons) will still get their own repository.
 
 
 NOTE:
-----_
-This repository is kept for historical reasons, it is not longer maintained as i no longer write for WCF 1.x.
+-----
+This repository is kept for historical reasons, it is not longer maintained.
 
 
 License
